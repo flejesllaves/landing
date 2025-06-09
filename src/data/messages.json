@@ -1,3 +1,10 @@
 [
- 
+  {
+    "nombre": "rodrigo",
+    "email": "rodrigomato.rm@gmail.com",
+    "telefono": "094041426",
+    "mensaje": "Mensaje de prueba numero 1",
+    "id": 1749435961962,
+    "createdAt": "2025-06-08T23:26:01.963-03:00"
+  }
 ]
