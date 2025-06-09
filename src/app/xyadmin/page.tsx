@@ -36,7 +36,6 @@ export default function AdminPage() {
       setLogged(true);
       fetchMessages();
     }
-    // eslint-disable-next-line
   }, []);
 
   const handleLogin = async (e: React.FormEvent) => {
@@ -94,7 +93,6 @@ export default function AdminPage() {
   const cardBg = "bg-blue-900/80 border border-blue-800 shadow-xl";
   const inputStyle = "bg-blue-950/60 border border-blue-700 text-blue-100 placeholder-blue-300 rounded px-3 py-2 focus:ring-2 focus:ring-blue-400";
   const buttonStyle = "bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 rounded-full transition-colors";
-  const labelStyle = "text-blue-200 font-semibold";
 
   if (!logged) {
     return (
