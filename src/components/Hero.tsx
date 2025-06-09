@@ -1,0 +1,24 @@
+import React from "react";
+import Image from "next/image";
+
+const Hero = () => (
+  <section className="w-full flex flex-col items-center justify-center py-16 px-4 bg-gradient-to-b from-blue-100 to-white dark:from-blue-900 dark:to-gray-900 text-center">
+    <Image src="/flejes-logo.png" alt="Logo Flejes Cerrajeros" width={300} height={300} className="mb-6 rounded-full shadow-lg" priority />
+    <h1 className="text-4xl md:text-6xl font-bold mb-4 text-blue-800 dark:text-blue-200">Cerrajería Flejes</h1>
+    <p className="text-lg md:text-2xl mb-6 text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
+      Apertura de casas y autos, duplicado de llaves y tags, cambio y service de cerraduras, reparación de alza cristales.
+    </p>
+    <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="#contacto" className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors">Solicitar servicio</a>
+      <a href="https://wa.me/59894640180" target="_blank" rel="noopener noreferrer" className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-colors flex items-center gap-2">
+        WhatsApp
+      </a>
+    </div>
+    <div className="mt-8 flex flex-row items-center justify-center gap-8 text-blue-800 dark:text-blue-200 text-2xl font-extrabold">
+      <span>🚨 <a href="tel:+59894640180" className="underline hover:text-blue-600">094-640-180</a></span>
+      <span>🚨 <a href="tel:+59895678649" className="underline hover:text-blue-600">095-678-649</a></span>
+    </div>
+  </section>
+);
+
+export default Hero;
