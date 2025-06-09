@@ -35,11 +35,11 @@ export const metadata: Metadata = {
     description: "Apertura de casas y autos, duplicado de llaves y más.",
     locale: "es_ES",
     type: "website",
-    url: "https://landing-flejes-projects.vercel.app/",
+    url: "https://landing-beta-gray.vercel.app/",
     siteName: "Cerrajería Flejes"
   },
   alternates: {
-    canonical: "https://landing-flejes-projects.vercel.app/"
+    canonical: "https://landing-beta-gray.vercel.app/"
   }
 };
 
@@ -56,9 +56,9 @@ export default function RootLayout({
           "@context": "https://schema.org",
           "@type": "Locksmith",
           "name": "Cerrajería Flejes",
-          "image": "https://landing-flejes-projects.vercel.app/flejes-logo.png",
-          "@id": "https://landing-flejes-projects.vercel.app/",
-          "url": "https://landing-flejes-projects.vercel.app/",
+          "image": "https://landing-beta-gray.vercel.app/flejes-logo.png",
+          "@id": "https://landing-beta-gray.vercel.app/",
+          "url": "https://landing-beta-gray.vercel.app/",
           "telephone": "+59894640180",
           "address": {
             "@type": "PostalAddress",
