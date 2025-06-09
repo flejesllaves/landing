@@ -1,7 +1,7 @@
-import React from "react";
-import { SERVICES } from "@/constants/services";
+import * as React from "react";
+import { SERVICES } from "../constants/services";
 
-const ICONS: Record<string, JSX.Element> = {
+const ICONS: Record<string, React.ReactNode> = {
   "lock-open": <span role="img" aria-label="Apertura">🔓</span>,
   "key": <span role="img" aria-label="Llave">🔑</span>,
   "settings": <span role="img" aria-label="Cerradura">🛠️</span>,
