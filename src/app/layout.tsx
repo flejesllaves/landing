@@ -25,18 +25,21 @@ export const metadata: Metadata = {
     "duplicado de tags",
     "reparación de alza cristales",
     "Flejes",
-    "cerrajero"
+    "cerrajero",
+    "cerrajeria 24hs",
+    "cerrajero de autos",
+    "cerrajeria autos"
   ],
   openGraph: {
     title: "Cerrajería Flejes",
     description: "Apertura de casas y autos, duplicado de llaves y más.",
     locale: "es_ES",
     type: "website",
-    url: "https://cerrajeria-flejes.com",
+    url: "https://landing-flejes-projects.vercel.app/",
     siteName: "Cerrajería Flejes"
   },
   alternates: {
-    canonical: "https://cerrajeria-flejes.com"
+    canonical: "https://landing-flejes-projects.vercel.app/"
   }
 };
 
@@ -47,6 +50,23 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+          "@context": "https://schema.org",
+          "@type": "Locksmith",
+          "name": "Cerrajería Flejes",
+          "image": "https://landing-flejes-projects.vercel.app/flejes-logo.png",
+          "@id": "https://landing-flejes-projects.vercel.app/",
+          "url": "https://landing-flejes-projects.vercel.app/",
+          "telephone": "+59894640180",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Montevideo",
+            "addressCountry": "UY"
+          },
+          "description": "Cerrajería Flejes: apertura de casas y autos, duplicado de llaves y más."
+        }`}} />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
