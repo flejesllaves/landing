@@ -124,7 +124,7 @@ export default function AdminPage() {
         </div>
         <div className="flex flex-col sm:flex-row gap-2 mb-6 items-end justify-end">
           <div className="text-blue-200 text-sm text-right">
-            <div><span className="font-semibold">Teléfonos:</span> <a href="tel:+59894640180" className="underline hover:text-blue-400 ml-1">094-640-180</a> <span className="mx-1">|</span> <a href="tel:+59895678649" className="underline hover:text-blue-400">095-678-649</a></div>
+            <div><span className="font-semibold">Teléfonos:</span> <a href="tel:+59895678649" className="underline hover:text-blue-400 ml-1">095-678-649</a> <span className="mx-1">|</span> <a href="tel:+59895034680" className="underline hover:text-blue-400">095-034-680</a> <span className="mx-1">|</span> <a href="tel:+59891717522" className="underline hover:text-blue-400">091-717-522</a></div>
           </div>
         </div>
         <form

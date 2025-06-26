@@ -1,19 +1,19 @@
 {
-  "name": "Cerrajería Flejes",
-  "short_name": "Flejes",
+  "name": "Cerrajería LLave Maestra",
+  "short_name": "LLave Maestra",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#101828",
   "theme_color": "#101828",
-  "description": "Cerrajería Flejes: apertura de casas y autos, duplicado de llaves y más.",
+  "description": "Cerrajería LLave Maestra: apertura de casas y autos, duplicado de llaves y más.",
   "icons": [
     {
-      "src": "/flejes-logo.png",
+      "src": "/llavemasestra.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/flejes-logo.png",
+      "src": "/llavemasestra.png",
       "sizes": "512x512",
       "type": "image/png"
     }

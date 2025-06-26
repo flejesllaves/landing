@@ -37,8 +37,27 @@ const Contact = () => {
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-blue-800 dark:text-blue-200">Contacto</h2>
         <p className="mb-4 text-gray-700 dark:text-gray-300">¿Necesitás ayuda urgente o querés consultar por un servicio? Escribinos o llamanos, ¡estamos para ayudarte!</p>
         <div className="flex flex-col gap-2 mb-8">
-	  <a href="tel:+59894640180" className="text-blue-700 hover:underline font-semibold">📞 094-640-180</a>
-	  <a href="tel:+59895678649" className="text-blue-700 hover:underline font-semibold">📞 095-678-649</a>
+          <span>
+            <a href="tel:+59895678649" className="text-blue-700 hover:underline font-semibold mr-2 flex items-center inline-block">
+              📞 <span className="ml-1">095-678-649</span>
+            </a>
+            <a href="https://wa.me/59895678649" target="_blank" rel="noopener noreferrer" className="ml-2 align-middle" title="WhatsApp">
+              <img src="/image.png" alt="WhatsApp" style={{ display: 'inline', width: '1.3em', height: '1.3em', verticalAlign: 'middle' }} />
+            </a>
+          </span>
+          <span>
+            <a href="tel:+59895034680" className="text-blue-700 hover:underline font-semibold mr-2 flex items-center inline-block">
+              📞 <span className="ml-1">095-034-680 <span className="text-xs text-gray-500">(16hs a 00)</span></span>
+            </a>
+            <a href="https://wa.me/59895034680" target="_blank" rel="noopener noreferrer" className="ml-2 align-middle" title="WhatsApp">
+              <img src="/image.png" alt="WhatsApp" style={{ display: 'inline', width: '1.3em', height: '1.3em', verticalAlign: 'middle' }} />
+            </a>
+          </span>
+          <span>
+            <a href="tel:+59891717522" className="text-blue-700 hover:underline font-semibold flex items-center inline-block">
+              📞 <span className="ml-1">091-717-522</span>
+            </a>
+          </span>
         </div>
         <form className="flex flex-col gap-4 items-center" name="contacto" autoComplete="off" onSubmit={handleSubmit}>
           <input type="text" name="nombre" placeholder="Tu nombre" className="w-full max-w-md px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400" required value={nombre} onChange={e => setNombre(e.target.value)} />

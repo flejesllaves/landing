@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cerrajería Flejes - Apertura de casas y autos, duplicado de llaves y más",
-  description: "Cerrajería Flejes: especialistas en apertura de casas y autos, duplicado de llaves y tags, cambio y service de cerraduras, reparación de alza cristales. Servicio rápido y profesional.",
+  title: "Cerrajería LLave Maestra - Apertura de casas y autos, duplicado de llaves y más",
+  description: "Cerrajería LLave Maestra: especialistas en apertura de casas y autos, duplicado de llaves y tags, cambio y service de cerraduras, reparación de alza cristales. Servicio rápido y profesional.",
   keywords: [
     "cerrajería",
     "apertura de casas",
@@ -24,19 +24,19 @@ export const metadata: Metadata = {
     "service de cerraduras",
     "duplicado de tags",
     "reparación de alza cristales",
-    "Flejes",
+    "LLAve maestra",
     "cerrajero",
     "cerrajeria 24hs",
     "cerrajero de autos",
     "cerrajeria autos"
   ],
   openGraph: {
-    title: "Cerrajería Flejes",
+    title: "Cerrajería LLave Maestra",
     description: "Apertura de casas y autos, duplicado de llaves y más.",
     locale: "es_ES",
     type: "website",
     url: "https://landing-beta-gray.vercel.app/",
-    siteName: "Cerrajería Flejes"
+    siteName: "Cerrajería LLave Maestra"
   },
   alternates: {
     canonical: "https://landing-beta-gray.vercel.app/"
@@ -55,8 +55,8 @@ export default function RootLayout({
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
           "@context": "https://schema.org",
           "@type": "Locksmith",
-          "name": "Cerrajería Flejes",
-          "image": "https://landing-beta-gray.vercel.app/flejes-logo.png",
+          "name": "Cerrajería LLave Maestra",
+          "image": "https://landing-beta-gray.vercel.app/llavemaestra.png",
           "@id": "https://landing-beta-gray.vercel.app/",
           "url": "https://landing-beta-gray.vercel.app/",
           "telephone": "+59894640180",
@@ -65,7 +65,7 @@ export default function RootLayout({
             "addressLocality": "Montevideo",
             "addressCountry": "UY"
           },
-          "description": "Cerrajería Flejes: apertura de casas y autos, duplicado de llaves y más."
+          "description": "Cerrajería LLave Maestra: apertura de casas y autos, duplicado de llaves y más."
         }`}} />
       </head>
       <body
