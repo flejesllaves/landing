@@ -52,6 +52,7 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <meta name="google-site-verification" content="fH4nYlgDgB8vnQ1ZL9-uLtgvzG-Pz9aPORK_PK41pTA" />
+        <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
           "@context": "https://schema.org",
           "@type": "Locksmith",

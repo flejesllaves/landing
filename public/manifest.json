@@ -1,11 +1,11 @@
 {
-  "name": "Cerrajería LLave Maestra",
-  "short_name": "LLave Maestra",
+  "name": "Cerrajería Llave Maestra",
+  "short_name": "Llave Maestra",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#101828",
   "theme_color": "#101828",
-  "description": "Cerrajería LLave Maestra: apertura de casas y autos, duplicado de llaves y más.",
+  "description": "Cerrajería Llave Maestra: apertura de casas y autos, duplicado de llaves y más.",
   "icons": [
     {
       "src": "/llavemasestra.png",

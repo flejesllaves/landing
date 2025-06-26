@@ -5,7 +5,7 @@ const About = () => (
     <div className="max-w-3xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-bold mb-6 text-blue-800 dark:text-blue-200">Sobre nosotros</h2>
       <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
-        En <strong>Cerrajería LLave Maestra</strong> contamos con años de experiencia brindando soluciones rápidas y seguras en apertura de puertas, duplicado de llaves y reparación de cerraduras. Nuestro equipo está capacitado para atender emergencias y ofrecer un servicio confiable, profesional y a precios competitivos.
+        En <strong>Cerrajería Llave Maestra</strong> contamos con años de experiencia brindando soluciones rápidas y seguras en apertura de puertas, duplicado de llaves y reparación de cerraduras. Nuestro equipo está capacitado para atender emergencias y ofrecer un servicio confiable, profesional y a precios competitivos.
       </p>
     </div>
   </section>
